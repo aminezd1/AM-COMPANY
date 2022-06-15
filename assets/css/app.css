@@ -772,12 +772,13 @@ input {
 
 @media only screen and (max-width: 1199px) {
     .breadcrum-area {
-        margin-top: -120px;
+        margin-top: -50px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .breadcrum-area {
+        margin-top: -50px;
         padding: 150px 0 40px;
     }
 }
@@ -1003,12 +1004,15 @@ input {
 @media only screen and (max-width: 1199px) {
     .breadcrumb-banner .shape-group-8 .shape.shape-2 img {
         width: 60%;
+        top: 50px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .breadcrumb-banner .shape-group-8 .shape.shape-2 img {
         width: 50%;
+        top: 50px;
+
     }
 }
 
@@ -1574,25 +1578,29 @@ Pagination
 }
 
 .shape-group-8 .shape.shape-2 {
-    top: 0;
+    top:21px;
     right: 0;
     text-align: right;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .shape-group-8 .shape.shape-2 img {
+        top:20px;
         width: 90%;
-    }
+    } 
 }
 
 @media only screen and (max-width: 1199px) {
     .shape-group-8 .shape.shape-2 img {
+        top:20px;
+
         width: 80%;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .shape-group-8 .shape.shape-2 img {
+        top:20px;
         width: 60%;
     }
 }
