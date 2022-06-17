@@ -228,8 +228,8 @@ ul.list-style li::marker,
 	position:fixed;
 	width:50px;
 	height:50px;
-	bottom:100px;
-	right:40px;
+	bottom:40px;
+	left:30px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -245,7 +245,7 @@ ul.list-style li::marker,
 
 .whatsapp-icon::after {
     bottom: 40px;
-    right: 40px;
+    left: 40px;
     opacity: 1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -259,8 +259,8 @@ ul.list-style li::marker,
     .whatsapp_float {
         width: 40px;
         height: 40px;
-        bottom: 60px;
-        right: 10px;
+        bottom: 10px;
+        left: 10px;
         font-size: 22px;
     }
 }
@@ -768,11 +768,12 @@ input {
     margin-top: -160px;
     position: relative;
     z-index: 1;
+    
 }
 
 @media only screen and (max-width: 1199px) {
     .breadcrum-area {
-        margin-top: -50px;
+        margin-top: 50px;
     }
 }
 
@@ -1146,11 +1147,15 @@ input {
 
 @media only screen and (max-width: 991px) {
     .axil-btn.btn-large {
+        margin-top: 230px;
         padding: 18px 35px;
+        margin-left:30px;
+
     }
+
 }
 
-.axil-btn.btn-large-fluid {
+.axil-btn.btn-fluid {
     padding: 23px;
     width: 100%;
 }
@@ -1160,7 +1165,7 @@ input {
 }
 
 /* -----------------------
-Pagination 
+    Pagination 
 --------------------------*/
 .pagination {
     margin-top: 80px;
@@ -1398,7 +1403,7 @@ Pagination
 
 .shape-group-1 .shape.shape-1 {
     top: 140px;
-    left: 315px;
+    left: 320px;
 }
 
 .shape-group-1 .shape.shape-2 {
@@ -1785,27 +1790,33 @@ Pagination
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .shape-group-13 .shape.shape-3 {
-        bottom: 220px;
+        bottom: 140px;
     }
 
     .shape-group-13 .shape.shape-3 img {
         width: 60%;
+        bottom: 140px;
     }
 }
 
 @media only screen and (max-width: 1199px) {
     .shape-group-13 .shape.shape-3 {
-        bottom: 100px;
+        bottom: 140px;
+
     }
 
     .shape-group-13 .shape.shape-3 img {
         width: 50%;
+        bottom: 140px;
+
     }
 }
 
 @media only screen and (max-width: 767px) {
     .shape-group-13 .shape.shape-3 img {
         width: 40%;
+        bottom: 140px;
+
     }
 }
 
@@ -2679,8 +2690,8 @@ Pagination
     Banner
 -------------------------*/
 .banner {
-    margin-top: -160px;
-    padding: 320px 0;
+    margin-top: -140px;
+    padding: 300px 0;
     position: relative;
     z-index: 2;
     min-height: 800px;
@@ -2741,18 +2752,30 @@ Pagination
     .banner .banner-content .title {
         font-size: 55px;
     }
+    .banner-content .subtitle{
+      text-align: center;
+    }
+    .banner-content .title{
+        text-align: center;
+      }
+    .banner-content .headtitle{
+        text-align:center;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
     .banner .banner-content .title {
         font-size: 40px;
     }
+    
 }
 
 .banner .banner-content .subtitle {
     font-size: var(--font-body-1);
     margin-bottom: 40px;
-    width: 90%;
+    width: 100%;
+
 }
 
 .banner .banner-content .axil-btn {
@@ -2850,6 +2873,9 @@ Pagination
     .banner .banner-thumbnail .shape-group .shape.shape-1 img {
         width: 70%;
     }
+    .stickers{
+        display:none;
+    }
 }
 
 .banner .banner-thumbnail .shape-group .shape.shape-2 {
@@ -2860,6 +2886,9 @@ Pagination
 @media only screen and (max-width: 991px) {
     .banner .banner-thumbnail .shape-group .shape.shape-2 {
         display: none;
+    }
+    .stickers{
+        display:none;
     }
 }
 
@@ -2893,6 +2922,9 @@ Pagination
 @media only screen and (max-width: 575px) {
     .banner .banner-social .border-line {
         display: none;
+    }
+        .stickers{
+        display:none;
     }
 }
 
@@ -2945,7 +2977,15 @@ Pagination
 @media only screen and (max-width: 1599px) {
     .banner.banner-style-1 .banner-thumbnail .large-thumb {
         margin-right: 0;
+        margin-top:-30px;
     }
+}
+@media only screen and (max-width: 1199px){
+    .banner.banner-style-1 .banner-thumbnail .large-thumb {
+        margin-right: 0;
+        margin-top:-320px;
+    }
+
 }
 
 .banner.banner-style-2 {
