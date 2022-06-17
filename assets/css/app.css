@@ -2744,13 +2744,14 @@ input {
 
 @media only screen and (max-width: 1199px) {
     .banner .banner-content .title {
-        font-size: 60px;
+        font-size: 80px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .banner .banner-content .title {
         font-size: 55px;
+        
     }
     .banner-content .subtitle{
       text-align: center;
