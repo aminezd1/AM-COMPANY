@@ -3421,6 +3421,9 @@ Pagination
     position: relative;
     z-index: 1;
 }
+.call-to-action .title{
+    font-size:50px;
+}
 
 @media only screen and (max-width: 1199px) {
     .call-to-action-area {
