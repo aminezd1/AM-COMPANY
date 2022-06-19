@@ -5,8 +5,6 @@ Description: Digital Agency Web Services
 Author: Amine ZIADI 
 Version: 1.0.0
 
-
-
 ===============================================   
 STYLESHEET INDEXING
 |
@@ -1145,23 +1143,26 @@ input {
     color: var(--color-white);
 }
 
-.axil-btn.btn-large {
+.axil-btn.btn-fill-primary {
     padding: 50%;
     text-align:center;
     
 }
-.axil-btn.btn-large a{
+.axil-btn.btn-fill-primary a{
     text-align:center;    
 }
 
 .btn-fill-primary{
+    box-shadow: 0px 48px 48px 0px rgba(0, 0, 0, 0.12);
+    font-size: 15px;
     display:none;
     margin-top :-20px;
     margin-right: 350px;
     text-align: center;
+
  }
 @media only screen and (max-width: 991px) {
-    .axil-btn.btn-large {     
+    .axil-btn.btn-fill-primary {     
         margin-top: 200px;
         padding: 18px 35px;
         text-align: center;      
