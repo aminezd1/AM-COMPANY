@@ -4692,11 +4692,17 @@ Pagination
     .project-add-banner .content .title {
         width: 100%;
     }
+    .more-project-btn-1 {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 991px) {
     .project-add-banner .content .title {
         margin-bottom: 60px;
+    }
+    .more-project-btn-1 {
+        display: none;
     }
 }
 
@@ -4708,11 +4714,17 @@ Pagination
     .project-add-banner .thumbnail {
         width: 50%;
     }
+    .more-project-btn-1 {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .project-add-banner .thumbnail {
         width: 30%;
+    }
+    .more-project-btn-1 {
+        display: none;
     }
 }
 
@@ -4720,6 +4732,9 @@ Pagination
     .project-add-banner .thumbnail {
         margin: 40px auto 0;
         width: 70%;
+    }
+    .more-project-btn-1 {
+        display: none;
     }
 }
 
@@ -4743,6 +4758,9 @@ Pagination
     .isotope-project-btn button {
         margin-right: 50px;
         font-size: 18px;
+    }
+    .more-project-btn-1 {
+        display: none;
     }
 }
 
@@ -4780,6 +4798,9 @@ Pagination
 @media only screen and (max-width: 991px) {
     .single-portfolio-area .why-choose-us {
         margin-top: 50px;
+    }
+    .more-project-btn-1 {
+        display: none;
     }
 }
 
