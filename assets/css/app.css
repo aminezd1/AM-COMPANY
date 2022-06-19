@@ -4718,7 +4718,12 @@ Pagination
         display: none;
     }
 }
+@media only screen and (max-width: 768px){
+    .more-project-btn-1 {
+        display: none;
+    }
 
+}
 @media only screen and (max-width: 767px) {
     .project-add-banner .thumbnail {
         width: 30%;
