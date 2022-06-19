@@ -1072,6 +1072,8 @@ input {
 /*-------------------------
     Button
 -------------------------*/
+
+
 .axil-btn {
     border-radius: 20px;
     font-size: 16px;
@@ -1149,6 +1151,7 @@ input {
 }
 div .btn-large {
    font-size: 20px;
+   display:none;
 
 }
 
@@ -1157,6 +1160,8 @@ div .btn-large {
         margin-top: 200px;
         padding: 18px 35px;
         text-align: center;      
+        display:flex;
+  
     }
 
 }
@@ -4578,10 +4583,26 @@ Pagination
     justify-content: center;
     margin-top: 20px;
 }
+.more-project-btn-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: -320px;
+    
+}
 
 @media only screen and (max-width: 767px) {
     .more-project-btn {
         margin-top: 0;
+    }
+    .more-project-btn-1 {
+        display: none;
     }
 }
 
@@ -4599,6 +4620,9 @@ Pagination
     .more-project-btn .axil-btn {
         padding: 18px 40px;
         font-size: 15px;
+    }
+    .more-project-btn-1 {
+        display: none;
     }
 }
 
@@ -4622,11 +4646,17 @@ Pagination
         padding: 40px 20px;
         margin-bottom: 100px;
     }
+    .more-project-btn-1 {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 575px) {
     .project-add-banner {
         display: block;
+    }
+    .more-project-btn-1 {
+        display: none;
     }
 }
 
@@ -4641,6 +4671,9 @@ Pagination
 @media only screen and (max-width: 575px) {
     .project-add-banner .content {
         padding-right: 0;
+    }
+    .more-project-btn-1 {
+        display: none;
     }
 }
 
