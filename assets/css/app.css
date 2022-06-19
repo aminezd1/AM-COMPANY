@@ -5,6 +5,8 @@ Description: Digital Agency Web Services
 Author: Amine ZIADI 
 Version: 1.0.0
 
+
+
 ===============================================   
 STYLESHEET INDEXING
 |
@@ -56,6 +58,8 @@ STYLESHEET INDEXING
 /*=======================================================================
 1. Default Styles
 =========================================================================*/
+
+
 /*-------------------------
     Variables
 -------------------------*/
@@ -1152,7 +1156,7 @@ div .btn-large {
     .axil-btn.btn-large {     
         margin-top: 200px;
         padding: 18px 35px;
-        text-align: center;       
+        text-align: center;      
     }
 
 }
