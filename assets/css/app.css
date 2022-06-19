@@ -1,9 +1,8 @@
 /*---------------------------------------------
-Template Name: Abstrak
-Template URL: https://axilthemes.com/demo/template/abstrak/
-Description: Digital Agency HTML5 Template
-Author: Axilthemes
-Author URL: https://axilthemes.com/
+Name: AM COMPANY
+URL: 
+Description: Digital Agency Web Services
+Author: Amine ZIADI 
 Version: 1.0.0
 
 ===============================================   
@@ -220,6 +219,7 @@ ul.list-style li::marker,
         padding-right: 45px;
     }
 }
+
 /*-------------------------
     Whatsapp icon
 -------------------------*/
@@ -274,9 +274,9 @@ ul.list-style li::marker,
   @media screen and (max-width: 640px){  
     .mobile-break { 
       display: none; 
-    }
-      
-  }
+    }  
+}
+
 body {
     font-family: var(--font-secondary);
     font-size: var(--font-body-2);
@@ -768,18 +768,16 @@ input {
     margin-top: -160px;
     position: relative;
     z-index: 1;
-    
 }
 
 @media only screen and (max-width: 1199px) {
     .breadcrum-area {
-        margin-top: 50px;
+        margin-top: -120px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .breadcrum-area {
-        margin-top: -50px;
         padding: 150px 0 40px;
     }
 }
@@ -890,7 +888,6 @@ input {
 }
 
 .breadcrumb-banner .banner-thumbnail {
-    top: 200px;
     position: absolute;
     bottom: -100px;
     right: 190px;
@@ -1013,7 +1010,6 @@ input {
     .breadcrumb-banner .shape-group-8 .shape.shape-2 img {
         width: 50%;
         top: 50px;
-
     }
 }
 
@@ -1045,7 +1041,7 @@ input {
     }
 }
 
-.breadcrumb-banner.single-breadcrumb .section-heading {
+.breadcrumb-banner.single-breadcrumb .section-heading .title {
     width: 100%;
 }
 
@@ -1143,19 +1139,23 @@ input {
 
 .axil-btn.btn-large {
     padding: 50%;
+    
+}
+div .btn-large {
+   font-size: 20px;
+
 }
 
 @media only screen and (max-width: 991px) {
-    .axil-btn.btn-large {
-        margin-top: 210px;
+    .axil-btn.btn-large {     
+        margin-top: 200px;
         padding: 18px 35px;
-        margin-left: 37px;
-
+        text-align: center;        
     }
 
 }
 
-.axil-btn.btn-fluid {
+.axil-btn.btn-large-fluid {
     padding: 23px;
     width: 100%;
 }
@@ -1165,7 +1165,7 @@ input {
 }
 
 /* -----------------------
-    Pagination 
+Pagination 
 --------------------------*/
 .pagination {
     margin-top: 80px;
@@ -1403,7 +1403,7 @@ input {
 
 .shape-group-1 .shape.shape-1 {
     top: 140px;
-    left: 320px;
+    left: 315px;
 }
 
 .shape-group-1 .shape.shape-2 {
@@ -1583,29 +1583,25 @@ input {
 }
 
 .shape-group-8 .shape.shape-2 {
-    top:21px;
+    top: 0;
     right: 0;
     text-align: right;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .shape-group-8 .shape.shape-2 img {
-        top:20px;
         width: 90%;
-    } 
+    }
 }
 
 @media only screen and (max-width: 1199px) {
     .shape-group-8 .shape.shape-2 img {
-        top:20px;
-
         width: 80%;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .shape-group-8 .shape.shape-2 img {
-        top:20px;
         width: 60%;
     }
 }
@@ -1795,28 +1791,22 @@ input {
 
     .shape-group-13 .shape.shape-3 img {
         width: 60%;
-        bottom: 140px;
     }
 }
 
 @media only screen and (max-width: 1199px) {
     .shape-group-13 .shape.shape-3 {
         bottom: 140px;
-
     }
 
     .shape-group-13 .shape.shape-3 img {
         width: 50%;
-        bottom: 140px;
-
     }
 }
 
 @media only screen and (max-width: 767px) {
     .shape-group-13 .shape.shape-3 img {
         width: 40%;
-        bottom: 140px;
-
     }
 }
 
@@ -2691,7 +2681,7 @@ input {
 -------------------------*/
 .banner {
     margin-top: -140px;
-    padding: 300px 0;
+    padding: 320px 0;
     position: relative;
     z-index: 2;
     min-height: 800px;
@@ -2744,16 +2734,15 @@ input {
 
 @media only screen and (max-width: 1199px) {
     .banner .banner-content .title {
-        font-size: 80px;
+        font-size: 70px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .banner .banner-content .title {
         font-size: 55px;
-        
     }
-    .banner-content .subtitle{
+        .banner-content .subtitle{
       text-align: center;
     }
     .banner-content .title{
@@ -2762,21 +2751,19 @@ input {
     .banner-content .headtitle{
         text-align:center;
     }
-
 }
 
 @media only screen and (max-width: 767px) {
     .banner .banner-content .title {
         font-size: 40px;
+
     }
-    
 }
 
 .banner .banner-content .subtitle {
     font-size: var(--font-body-1);
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     width: 100%;
-
 }
 
 .banner .banner-content .axil-btn {
@@ -2874,9 +2861,6 @@ input {
     .banner .banner-thumbnail .shape-group .shape.shape-1 img {
         width: 70%;
     }
-    .stickers{
-        display:none;
-    }
 }
 
 .banner .banner-thumbnail .shape-group .shape.shape-2 {
@@ -2887,9 +2871,6 @@ input {
 @media only screen and (max-width: 991px) {
     .banner .banner-thumbnail .shape-group .shape.shape-2 {
         display: none;
-    }
-    .stickers{
-        display:none;
     }
 }
 
@@ -2923,9 +2904,6 @@ input {
 @media only screen and (max-width: 575px) {
     .banner .banner-social .border-line {
         display: none;
-    }
-        .stickers{
-        display:none;
     }
 }
 
@@ -2978,7 +2956,7 @@ input {
 @media only screen and (max-width: 1599px) {
     .banner.banner-style-1 .banner-thumbnail .large-thumb {
         margin-right: 0;
-        margin-top:-30px;
+        margin-top:-200px;
     }
 }
 @media only screen and (max-width: 1199px){
@@ -2986,7 +2964,6 @@ input {
         margin-right: 0;
         margin-top:-320px;
     }
-
 }
 
 .banner.banner-style-2 {
@@ -3079,6 +3056,7 @@ input {
 @media only screen and (max-width: 991px) {
     .banner.banner-style-3 .banner-content .subtitle {
         font-size: 16px;
+        text-align: center;
     }
 }
 
@@ -3863,26 +3841,26 @@ input {
 }
 
 .contact-info .phone-number {
-    font-size: 40px;
+    font-size: 48px;
     color: var(--color-accent2);
     margin-bottom: 0;
 }
 
 @media only screen and (max-width: 1199px) {
     .contact-info .phone-number {
-        font-size: 35px;
+        font-size: 42px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .contact-info .phone-number {
-        font-size: 30px;
+        font-size: 34px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .contact-info .phone-number {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 
@@ -4137,7 +4115,6 @@ input {
 .pricing-table .pricing-header .title {
     font-size: 40px;
     margin-bottom: 8px;
-    text-align: center;
     letter-spacing: -0.045em;
     -webkit-transition: var(--transition);
     transition: var(--transition);
@@ -4146,26 +4123,21 @@ input {
 @media only screen and (max-width: 1199px) {
     .pricing-table .pricing-header .title {
         font-size: 36px;
-        text-align: center;
-
     }
 }
 
 @media only screen and (max-width: 575px) {
     .pricing-table .pricing-header .title {
-        text-align: center;
         font-size: 30px;
     }
 }
 
 .pricing-table .pricing-header .subtitle {
     font-size: 14px;
-    text-align: center;
     color: var(--color-text-dark);
     -webkit-transition: var(--transition);
     transition: var(--transition);
 }
-
 
 .pricing-table .pricing-header .price-wrap {
     margin: 40px 0 30px;
@@ -4178,7 +4150,6 @@ input {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    text-align:center;
 }
 
 .pricing-table .pricing-header .price-wrap .amount {
@@ -5132,13 +5103,12 @@ input {
 
 .team-details-thumb img {
     border-radius: 10px;
-    margin-left:100px;
-    
+    margin-left: 100px;
 }
 @media only screen and (max-width: 767px) {
     .team-details-thumb img {
-      display: none;  
-    }
+        margin-left: 1px;
+        }
 }
 
 /*-------------------------
@@ -9574,11 +9544,6 @@ input {
 
 .active-dark-mode .footer-copyright .copyright-text a:hover {
     color: var(--color-white);
-}
-
-.active-dark-mode .widget.widget-search .blog-search input {
-    /* -- Placeholder -- */
-    top: auto;
 }
 
 .active-dark-mode .widget.widget-search .blog-search input::-webkit-input-placeholder {
