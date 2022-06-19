@@ -907,7 +907,7 @@ input {
     }
 
     .breadcrumb-banner .banner-thumbnail img {
-        width: 90%;
+        width: 70%;
     }
 }
 
@@ -3860,26 +3860,26 @@ Pagination
 }
 
 .contact-info .phone-number {
-    font-size: 48px;
+    font-size: 40px;
     color: var(--color-accent2);
     margin-bottom: 0;
 }
 
 @media only screen and (max-width: 1199px) {
     .contact-info .phone-number {
-        font-size: 42px;
+        font-size: 30px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .contact-info .phone-number {
-        font-size: 34px;
+        font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .contact-info .phone-number {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
