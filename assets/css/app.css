@@ -1154,21 +1154,27 @@ input {
     text-align:center;    
 }
 
-div .btn-large {
-   font-size: 20px;
-   display:none;
-
-}
-
+.btn-fill-primary{
+    display:none;
+    margin-top :-20px;
+    margin-right: 350px;
+    text-align: center;
+ }
 @media only screen and (max-width: 991px) {
     .axil-btn.btn-large {     
         margin-top: 200px;
         padding: 18px 35px;
         text-align: center;      
         display:flex;
-  
     }
-
+    .btn-fill-primary{
+        margin-top: 200px;
+        font-size: 20px;
+        display:flex;
+        margin-right: 0px;
+        text-align: center;
+     
+     }
 }
 
 .axil-btn.btn-large-fluid {
@@ -4595,7 +4601,7 @@ Pagination
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .more-project-btn-1 {
     display: -webkit-box;
