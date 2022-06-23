@@ -1,6 +1,6 @@
 /*---------------------------------------------
 Name: AM COMPANY
-URL: 
+Email: contact@amcompany.ma 
 Description: Digital Agency Web Services
 Author: Amine ZIADI 
 Version: 1.0.0
@@ -1172,7 +1172,7 @@ input {
 .btn-fill-primary{
     box-shadow: 0px 48px 48px 0px rgba(0, 0, 0, 0.12);
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
  }
 .btn-fill-primary-1{
@@ -1186,10 +1186,10 @@ input {
 @media only screen and (max-width: 991px) {
     .axil-btn.btn-fill-primary {
         box-shadow: 0px 48px 48px 0px rgba(0, 0, 0, 0.12);
-        margin-top: 200px;
+        margin-top: 20px;
         padding: 18px 35px;
         text-align: center;      
-        display:flex;
+
     }
     .btn-fill-primary-1{
         box-shadow: 0px 48px 48px 0px rgba(0, 0, 0, 0.12);
