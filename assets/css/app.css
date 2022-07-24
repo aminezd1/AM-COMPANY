@@ -710,12 +710,12 @@ input {
 --------------------------*/
 .back-to-top {
     position: fixed;
-    bottom: -40px;
-    right: 40px;
+    bottom: 12px;
+    right: 50px;
     display: block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
     background: var(--color-primary);
     color: #fff;
     text-align: center;
@@ -733,9 +733,9 @@ input {
 
 @media only screen and (max-width: 575px) {
     .back-to-top {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
+        width: 60px;
+        height: 60px;
+        line-height: 50px;
     }
 }
 
@@ -744,7 +744,7 @@ input {
 }
 
 .back-to-top.show {
-    bottom: 40px;
+    bottom: 120px;
     right: 40px;
     opacity: 1;
     -webkit-transform: scale(1);
@@ -754,20 +754,21 @@ input {
 
 @media only screen and (max-width: 575px) {
     .back-to-top.show {
-        bottom: 10px;
-        right: 10px;
+        bottom: 100px;
+        right: 40px;
     }
 }
 
 .back-to-top.show:hover {
     color: var(--color-white);
-    bottom: 30px;
+    bottom: 50px;
     opacity: 1;
 }
 
 @media only screen and (max-width: 575px) {
     .back-to-top.show:hover {
-        bottom: 10px;
+        bottom: 120px;
+        right: 20px;
     }
 }
 
@@ -892,21 +893,24 @@ input {
 @media only screen and (max-width: 991px) {
     .breadcrumb-banner .section-heading p {
         width: 100%;
+        
     }
 }
 
 @media only screen and (max-width: 991px) {
     .breadcrumb-banner .section-heading {
         margin-bottom: 40px;
+        display: none;
     }
 }
 
 .breadcrumb-banner .banner-thumbnail {
     position: absolute;
     bottom: -100px;
-    top:250px;
+    top:200px;
     right: 190px;
     text-align: right;
+
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -917,6 +921,7 @@ input {
 
     .breadcrumb-banner .banner-thumbnail img {
         width: 70%;
+
     }
 }
 
@@ -924,10 +929,14 @@ input {
     .breadcrumb-banner .banner-thumbnail {
         right: -40px;
         bottom: -50px;
+        display: none;
+
     }
 
     .breadcrumb-banner .banner-thumbnail img {
         width: 65%;
+        display: none;
+
     }
 }
 
@@ -935,10 +944,14 @@ input {
     .breadcrumb-banner .banner-thumbnail {
         position: initial;
         text-align: center;
+        display: none;
+
     }
 
     .breadcrumb-banner .banner-thumbnail img {
         width: 100%;
+        display: none;
+
     }
 }
 
