@@ -744,8 +744,8 @@ input {
 }
 
 .back-to-top.show {
-    bottom: 120px;
-    right: 40px;
+    bottom: 100px;
+    right: 35px;
     opacity: 1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
