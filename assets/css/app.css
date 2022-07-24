@@ -710,7 +710,7 @@ input {
 --------------------------*/
 .back-to-top {
     position: fixed;
-    bottom: 12px;
+    bottom: 50px;
     right: 50px;
     display: block;
     width: 60px;
@@ -744,8 +744,8 @@ input {
 }
 
 .back-to-top.show {
-    bottom: 100px;
-    right: 35px;
+    bottom: 90px;
+    right: 20px;
     opacity: 1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -755,7 +755,7 @@ input {
 @media only screen and (max-width: 575px) {
     .back-to-top.show {
         bottom: 100px;
-        right: 40px;
+        right: 20px; 
     }
 }
 
@@ -763,11 +763,12 @@ input {
     color: var(--color-white);
     bottom: 50px;
     opacity: 1;
+    right: 20px;
 }
 
 @media only screen and (max-width: 575px) {
     .back-to-top.show:hover {
-        bottom: 120px;
+        bottom: 90px;
         right: 20px;
     }
 }
