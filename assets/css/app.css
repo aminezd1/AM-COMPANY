@@ -715,7 +715,7 @@ input {
     display: block;
     width: 60px;
     height: 60px;
-    line-height: 55px;
+    line-height: 50px;
     background: var(--color-primary);
     color: #fff;
     text-align: center;
@@ -735,7 +735,7 @@ input {
     .back-to-top {
         width: 60px;
         height: 60px;
-        line-height: 55px;
+        line-height: 50px;
     }
 }
 
@@ -763,7 +763,6 @@ input {
     color: var(--color-white);
     bottom: 95px;
     opacity: 1;
-    right: 16px;
 }
 
 @media only screen and (max-width: 575px) {
