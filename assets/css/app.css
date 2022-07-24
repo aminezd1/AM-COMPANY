@@ -745,7 +745,7 @@ input {
 
 .back-to-top.show {
     bottom: 90px;
-    right: 20px;
+    right: 18px;
     opacity: 1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -755,7 +755,7 @@ input {
 @media only screen and (max-width: 575px) {
     .back-to-top.show {
         bottom: 100px;
-        right: 20px; 
+        right: 18px; 
     }
 }
 
@@ -763,13 +763,13 @@ input {
     color: var(--color-white);
     bottom: 50px;
     opacity: 1;
-    right: 20px;
+    right: 18px;
 }
 
 @media only screen and (max-width: 575px) {
     .back-to-top.show:hover {
         bottom: 90px;
-        right: 20px;
+        right: 18px;
     }
 }
 
