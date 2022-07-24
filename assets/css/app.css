@@ -710,8 +710,8 @@ input {
 --------------------------*/
 .back-to-top {
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 100px;
+    right: 16px;
     display: block;
     width: 60px;
     height: 60px;
@@ -735,7 +735,7 @@ input {
     .back-to-top {
         width: 60px;
         height: 60px;
-        line-height: 50px;
+        line-height: 55px;
     }
 }
 
@@ -755,7 +755,7 @@ input {
 @media only screen and (max-width: 575px) {
     .back-to-top.show {
         bottom: 100px;
-        right: 16px; 
+        right: 16px;   
     }
 }
 
