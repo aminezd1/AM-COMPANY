@@ -7,12 +7,12 @@
  
 ==================================================
 
-Company Name: AM COMPANY™
-Company URL: https://amcompany.ma/
-Description: Agence de Web et Marketing
-Author: Amine Ziadi 
-Email: Contact@amcompany.ma
-Version: 1.0.0
+- Company Name: AM COMPANY™
+- Company URL: http://amcompany.ma/
+- Description: Agence de Web et Marketing digital
+- Author: Amine Ziadi 
+- Email: Contact@amcompany.ma
+- Version: 1.0.0
 
 ==================================================
 
@@ -229,6 +229,66 @@ ul.list-style li::marker,
     .row-45 > [class*="col"] {
         padding-left: 45px;
         padding-right: 45px;
+    }
+}
+
+/*-------------------------
+    thank you popup 
+-------------------------*/
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.popup h2{
+    color: #000000;
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #5956E9;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 767px){
+    .popup{
+        width: 400px;
+        background: #fff;
+        border-radius: 6px;
+        position: absolute;
+        top: 80%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        padding: 0 30px 30px;
+        color: black;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 }
 
@@ -713,8 +773,8 @@ input {
     bottom: 100px;
     right: 16px;
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     line-height: 50px;
     background: var(--color-primary);
     color: #fff;
@@ -733,8 +793,8 @@ input {
 
 @media only screen and (max-width: 575px) {
     .back-to-top {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         line-height: 50px;
     }
 }
