@@ -241,23 +241,28 @@
                     <div class="col-xl-5 col-lg-6 offset-xl-1">
                         <div class="contact-form-box shadow-box mb--30">
                             <h3 class="title">Devis Gratuit Maintenant</h3>
-                            <form>
+                            <form action="https://formsubmit.co/amineziadi484@gmail.com" method="POST">
                                 <div class="form-group">
-                                    <label>Nom & Prénom</label>
-                                    <input type="text" class="form-control" name="name" placeholder="Votre Nom & Prénom">
+                                 <label>Nom & Prénom*</label>
+                                 <input type="text"  name="name" required placeholder="Votre Nom & Prénom">
                                 </div>
+
                                 <div class="form-group">
-                                    <label>Email</label>
-                                    <input type="email" class="form-control" name="name" placeholder="Votre Email">
+                                 <label>Email*</label>
+                                 <input type="email" name="email" required placeholder="Votre Email">
                                 </div>
-                                <div class="form-group mb--40">
-                                    <label>Phone</label>
-                                    <input type="tel" class="form-control" name="Phone" placeholder="Votre Téléphone">
-                                </div>
+
                                 <div class="form-group">
-                                    <button type="submit" class="axil-btn btn-fill-primary btn-fluid" name="submit-btn">Obtenez un Devis Gratuit</button>
+                                    <label>Téléphone*</label>
+                                    <input type="text" name="name" required placeholder="Votre Téléphone">
                                 </div>
-                            </form>
+
+
+                                <button type="submit" class="axil-btn btn-fill-primary btn-fluid btn-primary">ENVOYER LE MESSAGE</button>
+                                <input type="hidden" name="_next" value="http://amcompany.ma/Thanks.html">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_template" value="table">
+                           </form>
                         </div>
                     </div>
                 </div>
